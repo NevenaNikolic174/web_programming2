@@ -1,0 +1,18 @@
+ [
+    {
+        "id": 1,
+        "naziv": "Monitors"
+    },
+    {
+        "id": 2,
+        "naziv": "Cases"
+    },
+    {
+        "id": 3,
+        "naziv": "Motherboards"
+    },
+    {
+      "id": 4,
+      "naziv": "Graphics"
+  }
+]

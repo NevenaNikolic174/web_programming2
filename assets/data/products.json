@@ -1,0 +1,518 @@
+[
+    {
+      "id": 1, 
+      "naziv": "Pro Display XDR",
+      "slika": "assets/images/apple-monitor.png",
+      "kategorijaID": 1,
+      "brendID": 3,
+      "popustID": 1,
+       "cena": {
+        "staraCena":79.99,
+        "trenutnaCena": 49.99
+       },
+       "godinaObjave": 2016,
+       "operativniSistem": [1,3],
+       "specifikacije": [
+        {
+          "naziv": "Resolution",
+          "vrednost": "218 pixels per inch"
+        },
+        {
+          "naziv": "Display",
+          "vrednost": "5K Retina display"
+        },
+        {
+          "naziv": "Camera",
+          "vrednost": "12MP Ultra Wide camera with 122° field of view"
+        },
+        {
+          "naziv": null,
+          "vrednost": null
+        }
+       ]
+    },
+    {
+      "id": 2, 
+      "naziv": "ASUS 34” Ultrawide HDR Gaming Monitor",
+      "slika": "assets/images/asus-monitor.png",
+      "kategorijaID": 1,
+      "brendID": 4,
+      "popustID": null,
+       "cena": {
+        "staraCena": null,
+        "trenutnaCena": 189.99
+       },
+       "godinaObjave": 2020,
+       "operativniSistem": [1,2],
+       "specifikacije": [
+        {
+          "naziv": "Resolution",
+          "vrednost": "6016 x 3384 6K Resolution"
+        },
+        {
+          "naziv": "Refresh rate",
+          "vrednost": "48Hz - 170Hz"
+        },
+        {
+          "naziv": "Weight",
+          "vrednost": 3.85
+        },
+        {
+          "naziv": "sRGB",
+          "vrednost": 130
+        }
+       ]
+    },
+    {
+      "id": 3, 
+      "naziv": "LG 28MQ780-B 28 Inch SDQHD",
+      "slika": "assets/images/lg-monitors.png",
+      "kategorijaID": 1,
+      "brendID": 2,
+      "popustID": 2,
+       "cena": {
+        "staraCena":279.99,
+        "trenutnaCena": 139.99
+       },
+       "godinaObjave": 2019,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "Resolution",
+          "vrednost": "3840x2160 pixels"
+        },
+        {
+          "naziv": "Refresh rate",
+          "vrednost": "58Hz - 62Hz"
+        },
+        {
+          "naziv": "Weight",
+          "vrednost": 7.2
+        },
+        {
+          "naziv": "sRGB",
+          "vrednost": 99
+        }
+       ]
+    },
+     {
+      "id": 4,
+      "naziv": "31,5 4K UHD IPS UltraGear™",
+      "slika": "assets/images/samsung-monitor.png",
+      "kategorijaID": 1,
+      "brendID": 1,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 259.99
+       },
+       "godinaObjave": 2021,
+       "operativniSistem": [2],
+       "specifikacije": [
+        {
+          "naziv": "Resolution",
+          "vrednost": "1920x1080 pixels"
+        },
+        {
+          "naziv": "Refresh rate",
+          "vrednost": "60Hz"
+        },
+        {
+          "naziv": "Weight",
+          "vrednost": 3.6
+        },
+        {
+          "naziv": null,
+          "vrednost": null
+        }
+       ]
+    },
+   
+    {
+      "id": 5, 
+      "naziv": "NZXT H510 - CA-H510B-B1",
+      "slika": "assets/images/case-purple.png",
+      "kategorijaID": 2,
+      "brendID": 1,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 160.99
+       },
+       "godinaObjave": 2017,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "Color",
+          "vrednost": "Black"
+        },
+        {
+          "naziv": "Hard Disk Form Factor",
+          "vrednost": 3.5
+        },
+        {
+          "naziv": "Cooling Method",
+          "vrednost": "Air"
+        },
+        {
+          "naziv": "Case Type",
+          "vrednost": "Tower"
+        }
+       ]
+    },
+    {
+      "id": 6,
+      "naziv": "Antec DF700 Flux",
+      "slika": "assets/images/giga-case.png",
+      "kategorijaID": 2,
+      "brendID": 1,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 250.99
+       },
+       "godinaObjave": 2020,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "Color",
+          "vrednost": "NX410 W"
+        },
+        {
+          "naziv": null,
+          "vrednost": null
+        },
+        {
+          "naziv": "Cooling Method",
+          "vrednost": "Air"
+        },
+        {
+          "naziv": "Case Type",
+          "vrednost": "Mid Tower"
+        }
+       ]
+    },
+    {
+      "id": 7, 
+      "naziv": "AMANSON PC CASE ATX",
+      "slika": "assets/images/master-case.png",
+      "kategorijaID": 2,
+      "brendID": 4,
+      "popustID": 1,
+       "cena": {
+        "staraCena":179.99,
+        "trenutnaCena": 63.99
+       },
+       "godinaObjave": 2021,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "Number of Expansion Slots",
+          "vrednost": 7
+        },
+        {
+          "naziv": "Motherboard Compatability",
+          "vrednost": "ATX"
+        },
+        {
+          "naziv": "Cooling Method",
+          "vrednost": "Micro ATX"
+        },
+        {
+          "naziv": "Fan Size",
+          "vrednost": "120 Millimeters"
+        }
+       ]
+    },
+    {
+      "id": 8, 
+      "naziv": "AeroCool Cylon RGB",
+      "slika": "assets/images/pink-case.png",
+      "kategorijaID": 2,
+      "brendID": 2,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 79.99
+       },
+       "godinaObjave": 2022,
+       "operativniSistem": [1,2,3],
+       "specifikacije": [
+        {
+          "naziv": "Hard Disk Form Factor",
+          "vrednost": "3.5 Inches"
+        },
+        {
+          "naziv": null,
+          "vrednost": null
+        },
+        {
+          "naziv": "Item Dimensions LxWxH",
+          "vrednost": "23.07 x 13.19 x 23.62 inches"
+        },
+        {
+          "naziv": "Case Type",
+          "vrednost": "Mid Tower"
+        }
+       ]
+    },
+   
+    {
+      "id": 9, 
+      "naziv": "ROG MAXIMUS XIII HERO",
+      "slika": "assets/images/maximus XIII hero.png",
+      "kategorijaID": 3,
+      "brendID": 2,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 199.99
+       },
+       "godinaObjave": 2020,
+       "operativniSistem": [2],
+       "specifikacije": [
+        {
+          "naziv": "Form Factor",
+          "vrednost": "Micro-ATX"
+        },
+        {
+          "naziv": "Chipset",
+          "vrednost": "AMD A320"
+        },
+        {
+          "naziv": "RAM",
+          "vrednost": "2x DDR4 @ 3200 MHz"
+        },
+        {
+          "naziv": "Audio Chip",
+          "vrednost": "Realtek ALC887"
+        }
+       ]
+    },
+    {
+      "id": 10, 
+      "naziv": "Z390 gaming X",
+      "slika": "assets/images/Z390 gaming X.png",
+      "kategorijaID": 3,
+      "brendID": 1,
+      "popustID": 2,
+       "cena": {
+        "staraCena":115.99,
+        "trenutnaCena": 72.99
+       },
+       "godinaObjave": 2015,
+       "operativniSistem": [2],
+       "specifikacije": [
+        {
+          "naziv": "Form Factor",
+          "vrednost": "ATX"
+        },
+        {
+          "naziv": "Chipset",
+          "vrednost": " Intel Z170"
+        },
+        {
+          "naziv": "RAM",
+          "vrednost": " 4x DDR4 @ 3533 MHz"
+        },
+        {
+          "naziv": "Audio Chip",
+          "vrednost": "Realtek ALC892"
+        }
+       ]
+    },
+    {
+      "id": 11, 
+      "naziv": "PRIME B560M-A",
+      "slika": "assets/images/prime B560M-A.png",
+      "kategorijaID": 3,
+      "brendID": 4,
+      "popustID": null,
+       "cena": {
+        "staraCena": null,
+        "trenutnaCena": 329.99
+       },
+       "godinaObjave": 2016,
+       "operativniSistem": [1,2],
+       "specifikacije": [
+        {
+          "naziv": "Form Factor",
+          "vrednost": "Micro-ATX"
+        },
+        {
+          "naziv": "Chipset",
+          "vrednost": "AMD B450"
+        },
+        {
+          "naziv": "RAM",
+          "vrednost": "4x DDR4 @ 3466 MHz"
+        },
+        {
+          "naziv": "Audio Chip",
+          "vrednost": "Realtek ALC892"
+        }
+       ]
+    },
+    {
+      "id": 12, 
+      "naziv": "TUF GAMING Z790-PLUS WIFI D4",
+      "slika": "assets/images/asus-motherboard.png",
+      "kategorijaID": 3,
+      "brendID": 4,
+      "popustID": 1,
+       "cena": {
+        "staraCena":245.99,
+        "trenutnaCena": 125.99
+       },
+       "godinaObjave": 2018,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "Form Factor",
+          "vrednost": "Micro-ATX"
+        },
+        {
+          "naziv": null,
+          "vrednost": null
+        },
+        {
+          "naziv": "RAM",
+          "vrednost": "4x DDR4 @ 4000 MHz"
+        },
+        {
+          "naziv": "Audio Chip",
+          "vrednost": "Realtek ALC887"
+        }
+       ]
+    },
+   
+  
+    {
+      "id": 13, 
+      "naziv": "GeForce GTX-1070",
+      "slika": "assets/images/geforce GTX-1070.png",
+      "kategorijaID": 4,
+      "brendID": 4,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 159.99
+       },
+       "godinaObjave": 2020,
+       "operativniSistem": [1,2],
+       "specifikacije": [
+        {
+          "naziv": "GPU Chip",
+          "vrednost": "AD104"
+        },
+        {
+          "naziv": "Memory",
+          "vrednost": "12 GB, GDDR6X, 192 bit"
+        },
+        {
+          "naziv": "GPU clock",
+          "vrednost": "2310 MHz"
+        },
+        {
+          "naziv": "Shaders / TMUs / ROPs",
+          "vrednost": "7680 / 240 / 80"
+        }
+       ]
+    },
+    {
+      "id": 14,
+      "naziv": "GeForce RTX™ 3080 GAMING X TRIO",
+      "slika": "assets/images/gaming-trio.png",
+      "kategorijaID": 4,
+      "brendID": 2,
+      "popustID": 1,
+       "cena": {
+        "staraCena":105.89,
+        "trenutnaCena": 84.99
+       },
+       "godinaObjave": 2018,
+       "operativniSistem": [2],
+       "specifikacije": [
+        {
+          "naziv": "GPU Chip",
+          "vrednost": "AD102"
+        },
+        {
+          "naziv": "Memory",
+          "vrednost": "24 GB, GDDR6X, 384 bit"
+        },
+        {
+          "naziv": "GPU clock",
+          "vrednost": "2235 MHz"
+        },
+        {
+          "naziv": "Shaders / TMUs / ROPs",
+          "vrednost": "16384 / 512 / 176"
+        }
+       ]
+    },
+    {
+      "id": 15, 
+      "naziv": "GeForce GTX-1050",
+      "slika": "assets/images/geforce GTX-1050.png",
+      "kategorijaID": 4,
+      "brendID": 2,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 152.99
+       },
+       "godinaObjave": 2017,
+       "operativniSistem": [2],
+       "specifikacije": [
+        {
+          "naziv": "GPU Chip",
+          "vrednost": "GA106"
+        },
+        {
+          "naziv": "Memory",
+          "vrednost": "12 GB, GDDR6, 192 bit"
+        },
+        {
+          "naziv": "GPU clock",
+          "vrednost": "1320 MHz"
+        },
+        {
+          "naziv": "Shaders / TMUs / ROPs",
+          "vrednost": "3584 / 112 / 48"
+        }
+       ]
+    },
+    {
+      "id": 16, 
+      "naziv": "ROG-STRIX-RTX4070TI-O12G",
+      "slika": "assets/images/RogStrix GAMING.png",
+      "kategorijaID": 4,
+      "brendID": 1,
+      "popustID": null,
+       "cena": {
+        "staraCena":null,
+        "trenutnaCena": 129.99
+       },
+       "godinaObjave": 2019,
+       "operativniSistem": [1],
+       "specifikacije": [
+        {
+          "naziv": "GPU Chip",
+          "vrednost": "Navi 10"
+        },
+        {
+          "naziv": "Memory",
+          "vrednost": "8 GB, GDDR6, 256 bit"
+        },
+        {
+          "naziv": "GPU clock",
+          "vrednost": "1605 MHz"
+        },
+        {
+          "naziv": "Shaders / TMUs / ROPs",
+          "vrednost": "2560 / 160 / 64"
+        }
+       ]
+    }
+  ]

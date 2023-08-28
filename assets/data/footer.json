@@ -1,0 +1,44 @@
+[
+    {
+      "naslov": "Quick links",
+      "linkovi": [
+        {
+          "ime": "Home",
+          "href": "index.html"
+        },
+        {
+          "ime": "Shop",
+          "href": "shop.html"
+        },
+        {
+          "ime": "Author",
+          "href": "author.html"
+        },
+        {
+          "ime": "Contact",
+          "href": "register.html"
+        }
+      ]
+    },
+    {
+      "naslov": "Useful links",
+      "linkovi": [
+        {
+          "ime": "Sitemap",
+          "href": "root/sitemap.xml"
+        },
+        {
+          "ime": "Documentation",
+          "href": "dokumentacijaWeb2.pdf"
+        },
+        {
+          "ime": "Terms",
+          "href": "#"
+        },
+        {
+          "ime": "Privacy Policy",
+          "href": "#"
+        }
+      ]
+    }
+  ]

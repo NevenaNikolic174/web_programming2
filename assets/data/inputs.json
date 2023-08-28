@@ -1,0 +1,26 @@
+[
+    {
+      "name": "ime",
+      "type": "fullName",
+      "errorMessages": {
+        "empty": "Enter a name.",
+        "invalid": "The name can only contain letters and spaces."
+      }
+    },
+    {
+     "name": "email",
+      "type": "email",
+      "errorMessages": {
+        "empty":" Enter a email.",
+        "invalid": "Please enter a valid email address."
+      }
+    },
+    {
+      "name": "password",
+      "type": "password",
+      "errorMessages": {
+        "empty": "Enter a password.",
+        "invalid": "The code must have at least 8 characters."
+      }
+    }
+  ]

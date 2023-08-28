@@ -1,0 +1,13 @@
+[
+    { "name": "Home", "href": "index.html" },
+    { "name": "Shop", "href": "shop.html" },
+    {
+      "name": "Dropdown",
+      "opcije": [
+        { "name": "Author", "href": "author.html" },
+        { "name": "Documentation", "href": "dokumentacijaWeb2.pdf" },
+        { "name": "Sitemap", "href": "root/sitemap.xml" }
+      ]
+    },
+    { "name": "Contact", "href": "register.html" }
+]

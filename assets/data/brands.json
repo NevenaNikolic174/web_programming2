@@ -1,0 +1,19 @@
+
+ [
+    {
+        "id": 1,
+        "naziv": "Samsung"
+    },
+    {
+        "id": 2,
+        "naziv": "LG"
+    },
+    {
+        "id": 3,
+        "naziv": "Apple"
+    },
+    {
+        "id": 4,
+        "naziv": "Asus"
+    }
+]
