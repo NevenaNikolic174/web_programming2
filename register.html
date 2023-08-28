@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webio Shop</title>
+    <meta charset="UTF-8" />
+    <meta name="language" content="en"/>
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:title" content="Register page"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="This is a computer tool store."/>
+    <meta name="keywords" content="computers, cases, graphics, shop, online shop"/>
+    <link rel="icon" type="image/x-icon" href="assets/images/ikonica.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+                          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+                          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+          crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+          rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navMeni">
+      <a class="navbar-brand" id="logo" href="#">Webio</a>
+      <button class="navbar-toggler" type="button" id="klikNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto" id="meniLista"></ul>
+      </div>
+    </nav>
+    
+      <form id="form" class="mx-md-auto">
+        <h1 style="font-size: 30px; padding: 1.8rem;">Contact Us</h1>
+        <fieldset>
+          <legend><span class="number">1</span> Your basic info</legend>
+          <label for="ime">Full Name:</label>
+          <input type="text" class="form-control" id="ime" >
+          <small class="text-danger tekst1" id="ime-error"></small>
+          
+          <label for="email">E-mail address:</label>
+              <input type="email" class="form-control" id="email">
+              <small class="text-danger tekst1" id="email-error"></small>
+          
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="user_password" value="">
+              <small class="text-danger tekst1" id="password-error"></small>
+        
+              <label>Age:</label>
+              <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
+              <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light">18 or Older</label>
+            </fieldset>
+            <small class="text-danger tekst1" id="age-error"></small>
+        <fieldset>
+
+          <legend class="tekst2"><span class="number">2</span> Your profile</legend>
+          <label for="poruka">Message:</label>
+          <textarea class="form-control" id="poruka" rows="3"></textarea>
+          <small id="charCount">0 / 200</small>
+          
+          <label for="grad">Town</label>
+          <select class="form-control" id="grad">
+              <option value="">Select a city</option>
+              <option value="Zagreb">Paris</option>
+              <option value="Split">New York</option>
+              <option value="Rijeka">London</option>
+              <option value="Osijek">Tokio</option>
+          </select>
+          <small class="text-danger tekst1" id="grad-error"></small>
+
+          <label>How did you hear about us?</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Social Media</label><br>
+          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Telegram</label><br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Newspaper</label>
+      
+        </fieldset>
+        <small class="text-danger tekst1" id="interests-error"></small>
+          
+        <button type="submit" class="btn btn-primary" id="submit-btn">Send</button>
+        <small class="text-danger tekst1" id="poruke-o-greskama"></small>
+
+        <div class="alert alert-danger" id="error-message" style="display:none;">
+          Please correct the listed errors and try again.
+        </div>
+        <div class="alert alert-success" id="success-message" style="display:none;">
+          You have successfully sent your message!
+        </div>      
+      </form>
+
+      <section>
+        <footer class="bg-secondary text-white text-center text-md-start pozadina">
+          <div class="container p-4">
+            <div class="row">
+              <div class="col-lg-6 col-md-12 mb-4 mb-md-0"  id="footerStil">
+                <a class="navbar-brand" id="logo" href="#">Webio</a>
+                <ul>
+                  <li>Svakim danom 10:00h - 22:00h</li>
+                  <li>Zdravka Celara 16</li>
+                  <li><a href="#">nevena.nikolic.174.21@ict.edu.rs</a></li>
+                  <li>062/1234567</li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footerLinks1"></div>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footerLinks2"></div>
+            </div>
+          </div>
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            &#169; 2023 Copyright:
+            <a class="text-white">Nevena Nikolic</a>
+          </div>
+        </footer>
+      </section>
+      <button  id="top-arrow" style="display: block;">
+        <img src="assets/images/up-arrow.png" alt="arrow">
+    </button>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+      <script src="assets/js/ajax.js"></script>
+    </body>
+  </html>
+  
+  

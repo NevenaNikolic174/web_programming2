@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webio Shop</title>
+    <meta charset="UTF-8" />
+    <meta name="language" content="en"/>
+    <meta name="robots" content="index, follow"/>
+    <meta property="og:title" content="Shop page"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="This is a computer tool store."/>
+    <meta name="keywords" content="computers, cases, graphics, shop, online shop"/>
+    <link rel="icon" type="image/x-icon" href="assets/images/ikonica.png"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+                          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+                          crossorigin="anonymous"/>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+          integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+          crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+          rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navMeni">
+      <a class="navbar-brand" id="logo" href="#">Webio</a>
+      <button class="navbar-toggler" type="button" id="klikNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav mr-auto" id="meniLista"></ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container-fluid">
+        <header class="row">
+          <div  id="ListaKategorije"></div>
+          <div  id="listaBrendova"></div>
+          <div  id="ListaPopusta">
+
+          </div>
+          <div  id="operativniSistem"></div>
+          <div  id="Sortiranje"></div>
+
+
+          <label>Search: </label>
+          <input type="text" id="search" min="0" max="100" style="width:200px"/>
+        </header>
+    
+        <section class="section-products">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-md-8 col-lg-6">
+                <div class="header">
+                  <h3>Featured Product</h3>
+                  <h2>Popular Products</h2>
+                </div>
+              </div>
+            </div>
+            <div class="row" id="proizvodi">
+    
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <section>
+      <footer class="bg-secondary text-white text-center text-md-start pozadina">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0"  id="footerStil">
+              <a class="navbar-brand" id="logo" href="#">Webio</a>
+              <ul>
+                <li>Svakim danom 10:00h - 22:00h</li>
+                <li>Zdravka Celara 16</li>
+                <li><a href="#">nevena.nikolic.174.21@ict.edu.rs</a></li>
+                <li>062/1234567</li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footerLinks1"></div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="footerLinks2"></div>
+          </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          &#169; 2023 Copyright:
+          <a class="text-white">Nevena Nikolic</a>
+        </div>
+      </footer>
+    </section>
+      <div id="message"></div>
+      <button  id="cart-block" style="display: block;">
+          <a class="nav-link" href="cart.html"><i class="fas fa-shopping-cart"></i><span id="broj-proizvoda"></span></a>
+      </button>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="assets/js/ajax.js"></script>
+    </body>
+</html>
